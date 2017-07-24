@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>angular</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+</head>
+<body ng-app="myApp">
+<div>
+    <div>
+        <ul class="nav nav-tabs">
+            <li class="active" ui-sref="home">
+                <a href="">home</a>
+            </li>
+            <li ui-sref="about">
+                <a href="">about</a>
+            </li>
+        </ul>
+    </div>
+    <div ui-view=""></div>
+    <div ui-view="child"></div>
+</div>
+<script src="script/angular.min.js"></script>
+<script src="script/angular-ui-router.min.js"></script>
+<script src="script/require.js" data-main="script/main"></script>
+<script src="script/router.js"></script>
+<script src="controller/homeCtrl.js"></script>
+<script src="controller/aboutCtrl.js"></script>
+</body>
+</html>
