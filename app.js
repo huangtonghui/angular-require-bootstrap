@@ -1,4 +1,4 @@
-define(['angular','router'], function(){
+define(['router'], function(){
     var app = angular.module('app', ['ui.router']);
     app.config(function ($stateProvider, $urlRouterProvider) {
         $urlRouterProvider.when("", "/home");
