@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="app">
 <head>
     <meta charset="UTF-8">
     <title>angular</title>
     <link rel="stylesheet" href="css/bootstrap.css"/>
 </head>
-<body ng-app="myApp">
+<body>
 <div>
     <div>
         <ul class="nav nav-tabs">
@@ -18,13 +18,8 @@
         </ul>
     </div>
     <div ui-view=""></div>
-    <div ui-view="child"></div>
 </div>
-<script src="script/angular.min.js"></script>
-<script src="script/angular-ui-router.min.js"></script>
-<script src="script/require.js" data-main="script/main"></script>
-<script src="script/router.js"></script>
-<script src="controller/homeCtrl.js"></script>
-<script src="controller/aboutCtrl.js"></script>
+<script src="lib/require.js" data-main="main"></script>
+
 </body>
 </html>
