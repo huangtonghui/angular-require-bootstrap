@@ -1,2 +1,2 @@
-# angular-require-bootstrap
-angular-require-bootstrap
+# angular-require-ui.router
+angular-require-ui.router
