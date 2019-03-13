@@ -1,2 +1,1 @@
-# angular-require-router
-angular-require-router
+# angular-router-require
